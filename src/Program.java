@@ -11,11 +11,9 @@ public class Program {
         int mun = in.nextInt();
         int sum = num + nam + mun / 3;
         int summa = sum / 2;
-        if (
-                summa > 3
-        )
+        if (summa > 3) {
             System.out.println("Программа выполнена корректно");
 
-
+        }
     }
 }
